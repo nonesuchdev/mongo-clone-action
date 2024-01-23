@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-22.04
     name: Clone MongoDB
     steps:
-    - uses: Maggi64/mongo-clone-action@main
+    - uses: nonesuchdev/mongo-clone-action@main
       with:
         source: ""
         target: ""
